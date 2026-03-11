@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(210, 230, 250);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: white;
+  padding: 16px;
+  width: 250px;
+  border-radius: 13px;
+}
+img {
+  width: 100%;
+  border-radius: 13px;
+  margin: 0 auto 10px;
+  display: block;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  color: hsl(217, 33%, 31%);
+}
+p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 18px;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(216, 15%, 48%);
+}
